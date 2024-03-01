@@ -1,7 +1,7 @@
 # spark-wechat-vercel
 基于vercel的serverless服务，把星火认知大模型接入微信公众号
 
-### 必要条件
+## 必要条件
 
 1. 有一个域名
 
