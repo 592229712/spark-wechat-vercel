@@ -85,6 +85,8 @@ const emojiObj = {
   "/:li": "闪电劈你"
 };
 const keywordAutoReply = JSON.parse(process.env.KEYWORD_REPLAY);
+
+console.log(process.env)
 module.exports = async function (request, response) {
   const method = request.method;
   const timestamp = request.query.timestamp;
